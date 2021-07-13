@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PaginaInicial">
+    <children>
+        <AnchorPane layoutX="381.0" prefHeight="410.0" prefWidth="226.0" style="-fx-background-color: black;">
+            <children>
+                <Button fx:id="buttonlogin" layoutX="1.0" layoutY="141.0" mnemonicParsing="false" onAction="#loginloader" prefHeight="90.0" prefWidth="226.0" style="-fx-background-color: #808080;" text="Login" textAlignment="CENTER" textFill="#3e1212">
+                    <font>
+                        <Font name="Forte" size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="buttoncadastro" layoutX="1.0" layoutY="232.0" mnemonicParsing="false" onAction="#cadastroloader" prefHeight="75.0" prefWidth="226.0" style="-fx-background-color: #808080;" text="Cadastrar" textAlignment="CENTER" textFill="#3e1212">
+                    <font>
+                        <Font name="Forte" size="36.0" />
+                    </font>
+                </Button>
+                <Button fx:id="butonmodalidade" layoutX="1.0" layoutY="308.0" mnemonicParsing="false" onAction="#modalidadeloader" prefHeight="116.0" prefWidth="226.0" style="-fx-background-color: #808080;" text="Modalidades" textAlignment="CENTER" textFill="#3e1212">
+                    <font>
+                        <Font name="Forte" size="36.0" />
+                    </font>
+                </Button>
+            <Label layoutX="68.0" layoutY="51.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttoncalendario" layoutX="1.0" mnemonicParsing="false" onAction="#calendarioloader" prefHeight="142.0" prefWidth="226.0" style="-fx-background-color: #808080;" text="Calendario" textAlignment="CENTER" textFill="#3e1212">
+               <font>
+                  <Font name="Forte" size="36.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+      <ImageView fitHeight="430.0" fitWidth="387.0" layoutX="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/coloridos-silhuetas-corredores_23-2147619177.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

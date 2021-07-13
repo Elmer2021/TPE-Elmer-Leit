@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Cadastro">
+   <children>
+      <Label layoutX="45.0" layoutY="33.0" text="Nome" textFill="#dfd2d2">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="38.0" layoutY="70.0" prefHeight="26.0" prefWidth="330.0" />
+      <Label layoutX="395.0" layoutY="33.0" text="Idade" textFill="#dfd2d2">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="395.0" layoutY="70.0" prefHeight="26.0" prefWidth="138.0" />
+      <Label layoutX="38.0" layoutY="104.0" text="Email" textFill="#dfd2d2">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="38.0" layoutY="131.0" prefHeight="26.0" prefWidth="330.0" />
+      <ComboBox layoutX="412.0" layoutY="144.0" prefWidth="150.0" promptText="Selecionar Cadastro" />
+      <ComboBox layoutX="412.0" layoutY="175.0" prefWidth="150.0" promptText="Modalidade" />
+      <TextArea layoutX="37.0" layoutY="243.0" prefHeight="127.0" prefWidth="497.0" />
+      <Label layoutX="38.0" layoutY="156.0" text="Sexo" textFill="#dfd2d2">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="33.0" layoutY="183.0" prefHeight="26.0" prefWidth="138.0" />
+      <Label layoutX="70.0" layoutY="209.0" text="Descreve-te" textFill="#dfd2d2">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

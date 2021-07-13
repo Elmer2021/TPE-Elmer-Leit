@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="520.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Calendario">
+   <children>
+      <AnchorPane prefHeight="145.0" prefWidth="520.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/calendario-bola.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="234.0" layoutY="67.0" text="Calendario Jogos" textFill="#cfcfcf">
+               <font>
+                  <Font name="Forte" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutY="150.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="     Modalidade" />
+      <Label layoutY="216.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="    Futebool" />
+      <Label layoutY="259.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="  Basketebol" />
+      <Label layoutY="301.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="  Voleibol" />
+      <Label layoutY="343.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text=" Andebol" />
+      <Label layoutX="129.0" layoutY="150.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="         Data" />
+      <Label layoutX="129.0" layoutY="259.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="      23/07/2021" />
+      <Label layoutX="129.0" layoutY="216.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="      3/08/2021" />
+      <Label layoutX="129.0" layoutY="301.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="      30/07/2021" />
+      <Label layoutX="129.0" layoutY="343.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="      29/07/2021" />
+      <Label layoutX="266.0" layoutY="150.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="          Horario" />
+      <Label layoutX="266.0" layoutY="216.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="           17:00" />
+      <Label layoutX="266.0" layoutY="259.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="           15:00" />
+      <Label layoutX="266.0" layoutY="301.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="           11:00" />
+      <Label layoutX="266.0" layoutY="343.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="           20:00" />
+      <Label layoutX="395.0" layoutY="150.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="           Local" />
+      <Label layoutX="395.0" layoutY="216.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="     Aderito Sena" />
+      <Label layoutX="395.0" layoutY="259.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="         Oeiras" />
+      <Label layoutX="395.0" layoutY="301.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="        EICM" />
+      <Label layoutX="395.0" layoutY="343.0" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: orange;" text="   Paviliao ESAO" />
+   </children>
+</AnchorPane>

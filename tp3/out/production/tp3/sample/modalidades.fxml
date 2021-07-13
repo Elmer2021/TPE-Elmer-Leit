@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Modalidadesdisponivel">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="400.0" prefWidth="282.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="161.0" layoutX="14.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/20171114113233_Basket.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="25.0" layoutY="200.0" prefHeight="27.0" prefWidth="84.0" text="Basket" textFill="#d9cccc">
+               <font>
+                  <Font name="Forte" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="109.0" fitWidth="199.0" layoutX="10.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/futebol.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="19.0" layoutY="38.0" prefHeight="27.0" prefWidth="138.0" text="FootBoll" textFill="#d9cccc">
+               <font>
+                  <Font name="Forte" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="277.0" layoutY="-1.0" prefHeight="400.0" prefWidth="322.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="54.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/andebol_feminino.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="101.0" layoutY="215.0" prefHeight="27.0" prefWidth="138.0" text="Andeboll" textFill="#d9cccc">
+               <font>
+                  <Font name="Forte" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="54.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/5f96e70becc69d7489992d83c377b4a9.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="42.0" layoutY="18.0" prefHeight="27.0" prefWidth="138.0" text="Voleibol" textFill="#d9cccc">
+               <font>
+                  <Font name="Forte" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
